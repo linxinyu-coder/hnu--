@@ -1,14 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Feb 27 23:36:43 2021
-
-@author: lin
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
 Created on Thu Jan 28 22:58:40 2021
 
 @author: lin
@@ -79,7 +71,7 @@ while True:
                 browser.find_element_by_xpath('/html/body/div[1]/div/div[3]/div[3]/div/input').send_keys(a)
                 time.sleep(3)
                 browser.find_element_by_xpath('/html/body/div[1]/div/div[3]/button').click()
-                time.sleep(20)
+                time.sleep(10)
                 n=n+1
                 if n>20:
                     browser.close()
@@ -117,7 +109,6 @@ while True:
         eorror=eorror+1########################################3
         time.sleep(1)
         browser.find_element_by_xpath('/html/body/div[1]/div/div[2]/div[2]/div/div[1]/div/div/div/div[2]/div[2]/div[2]/div[2]').click()
-
         time.sleep(1)
         eorror=eorror+1###################################4
         ####地点点击
